@@ -1,1 +1,0 @@
-com.applet.source.packageinfo
