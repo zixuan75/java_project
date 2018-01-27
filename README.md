@@ -1,6 +1,8 @@
 # java_project
 Use Eclipse Java to run this program.
 
+Screenshot:
+![alt text](0a.png "Here is the screenshot.")
 ## Java installation
 If you are no Java, download at [here](www.java.com/download) but **need install Java 8 update 121** or please type following command:
 ### Debian/Ubuntu:
