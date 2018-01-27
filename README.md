@@ -5,7 +5,7 @@ Use Eclipse Java to run this program.
 Clone this program using following command:
 > git clone git@github.com:zixuan75/java_project -->
 
-Download and install the[Eclipse](www.eclipse.org/)/[Netbeans](www.netbeans.org/) support for Java. --> 
+If you are no Eclipse/Netbeans, download and install the [Eclipse](www.eclipse.org/)/[Netbeans](www.netbeans.org/) support for Java. --> 
 
 In Eclipse/Netbeans, import this project. --> 
 
