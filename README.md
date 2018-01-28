@@ -25,4 +25,4 @@ In Eclipse/Netbeans, import this project. -->
 
 See Problems list in your Eclipse/Netbeans. If it has an error, please add a issue instead of edit my code. -->
 
-Compile and run. (Open in Project Explorer --> Click right of your mouse --> Press Run.) 
+Open in Project Explorer , click right of your mouse and Press Run.
