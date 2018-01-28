@@ -7,6 +7,7 @@ If you have an problem, please post as an issue on this project (not lincongNMR/
 
 Photos are not a instance of all of them code written in Java, it maybe a part, so we don't add all of them code written in Java. So this is why we don't insert photo all of them code written in Java, we insert photo a part of code written in Java, and we don't edit all of them code written in Java.
 
+
 Two photo on Ubuntu 16.04:
 ![alt text](0a.png "S1: Showing this program's photo.")
 ![alt text](0b.png "S2: Showing written in Java's codes and output text.")
@@ -111,3 +112,13 @@ When I comment your issue, you need reply my comment. It is not possible, if I d
 It must be comment your issue when you don't have a new challenge can work, if I use a command is work for you, I going to close your issue for my challenge you can work.
 
 Commenting issues are not similar to add a issue when you solved a my challenge, I want going to close your isssue when solved your issue with typing a command. We does not use a bug to add some pull requests on this respository, but if your issne dosen't make sense, I going to close your issue. 
+
+## Add a comment on *Beta folder* pull request
+Please do not add a question that does not make sense, must be I understanding what are you saying. If I add a question does not make sense, I can delete my comment. If you add an comment does not understand, I have write permission to delete your comment. 
+
+Don't forgot your comment needs make sense and I can understand what are you asking. We can merge pull requests or issues and close pull requests or issues this is why we have write permission access to delete your comment.
+
+> I can delete my comment. If you add an comment does not understand, I have write permission to delete your comment.
+
+1. It means we have write permission to access, can delete comment when we don't understand what are you saying.
+2. We tell you please add enough description, because we don't allow add we don't understand what are you saying.
