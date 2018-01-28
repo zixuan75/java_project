@@ -56,7 +56,7 @@ A repository called [Jevins/JavaProject](github.com/Jevins/JavaProject).
 A username called Javaproject.
 A people called Java A. Project.
 ### 1.1.1: Disambugation page
-1. Java Project, a website.
-2. Java Project, a repository.
-3. Java Project, a username.
-4. Java Project, a people.
+ - Java Project, a website.
+ - Java Project, a repository.
+ - Java Project, a username.
+ - Java Project, a people.
