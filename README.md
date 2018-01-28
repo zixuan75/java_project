@@ -7,7 +7,7 @@ Using Eclipse/Netbeans, you also can type following command:
 
 > sudo apt-get install netbeans eclipse
 
-They are rarely install using those command, because it is similar to download it at web site. If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue. Issue do not post as an question encountered, please post as an comment on a pull request.
+They are rarely install using those command, because it is similar to download it at web site. If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue if you have an error and a problem you've encountered. Issue do not post as an question encountered, please post as an comment on a pull request.
 
 ### Eclipse:
 Download Eclipse at www.eclipse.org or using following command:
