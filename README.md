@@ -1,7 +1,13 @@
 # java_project
 Use Eclipse/Netbeans Java to run this program (Title called "Sourcejav"), following screenshot is showing this program running and output text. Please install the **newest version of Java (Java 8 update 121)**, because the program only support for Java 8 update 121. Usage *quote required (**JPanel**)* is only support for Java 8 update 121, the Java 9 also support for code "JPanel a = new JPanel()" but Java 9 does not support for code "JPanel a = new JPanel("blah blah blah")".
 
-Alternatively, Eclipse/Netbeans can run like "killall java" to stop your program and Eclipse/Netbeans. This command when Eclipse/Netbeans GUI does not stops working,  do **not** run like "killall java" or "killall -9 java", but if Eclipse/Netbeans stops working, you need to run things like in terminal "killall java" or "killall -9 java".
+Alternatively, Eclipse/Netbeans can run like "killall java" to stop your program and Eclipse/Netbeans. This command when Eclipse/Netbeans GUI does not stops working,  do **not** run like "killall java" or "killall -9 java", but if Eclipse/Netbeans stops working, you need to run things like in terminal "killall java" or "killall -9 java". 
+
+Using Netbeans or Eclipse to change GitHub project, you also can type following command:
+
+> sudo apt-get install netbeans eclipse
+
+Or download Eclipse at www.eclipse.com. They are rarely install using those command, because it is similar to download it at web site. If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue. Issue do not post as an question encountered, please post as an comment on a pull request.
 
 Photos:
 ![alt text](0a.png "S1: Showing this program's photo.")
