@@ -31,7 +31,7 @@ See Problems list in your Eclipse/Netbeans. If it has an error, please add a iss
 
 Open in Project Explorer , click right of your mouse and Press Run.
 
-# 1 Others (disambugation)
+# 1: Others (disambugation)
 Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" command is for Debian/Ubuntu. This project is under following usage:
 
 >   a) Java Project does not add information in working days.
@@ -44,12 +44,12 @@ Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" comm
   
 Those usages are not a mess, d) saying we can see old description when we adding new description, c) saying issues only me can merge and close, b) saying we have an constructive calender in searching days in [GitHub](https://github.com). a) saying I don't add description on README on my working days, so this is why we called this "disambugation". Why we added that usage, because this project is different to other projects.
 
-## 1.1 Unrelated to:
+## 1.1: Unrelated to:
 A website called [Java Project](www.javaproject.org).
 A repository called [Jevins/JavaProject](github.com/Jevins/JavaProject).
 A username called Javaproject.
 A people called Java A. Project.
-### 1.1.1 Disambugation page
+### 1.1.1: Disambugation page
 1. Java Project, a website.
 2. Java Project, a repository.
 3. Java Project, a username.
