@@ -18,4 +18,4 @@ If you are no Eclipse/Netbeans, download and install the [Eclipse](www.eclipse.o
 
 In Eclipse/Netbeans, import this project. --> 
 
-Compile and run.
+Compile and run. (Open in Project Explorer --> Click right of your mouse --> Press Run.) 
