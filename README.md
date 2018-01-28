@@ -3,9 +3,11 @@ Use Eclipse/Netbeans Java to run this program (Title called "Sourcejav"), follow
 
 Alternatively, Eclipse/Netbeans can run like "killall java" to stop your program and Eclipse/Netbeans. This command when Eclipse/Netbeans GUI does not stops working,  do **not** run like "killall java" or "killall -9 java", but if Eclipse/Netbeans stops working, you need to run things like in terminal "killall java" or "killall -9 java".
 
-Screenshot:
+Photos:
 ![alt text](0a.png "S1: Showing this program's photo.")
 ![alt text](0b.png "S2: Showing written in Java's codes and output text.")
+Those photos are showing program shows what and program's output is what, does not show the code is what, and this is why we added photo to show what that program shows. But show a part of my code, not all code, because do it does not useful for showing my code is what.
+
 Following is the installation usage:
 ## Installation
 If you are no Java, download at [here](www.java.com/download) but **need install Java 8 update 121** or please type following command (On Debian/Ubuntu):
