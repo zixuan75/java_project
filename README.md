@@ -7,6 +7,14 @@ Using Netbeans or Eclipse to change GitHub project, you also can type following 
 
 > sudo apt-get install netbeans eclipse
 
+or 
+
+> sudo apt-get install eclipse
+
+or 
+
+> sudo apt-get install netbeans
+
 Or download Eclipse at www.eclipse.com. They are rarely install using those command, because it is similar to download it at web site. If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue. Issue do not post as an question encountered, please post as an comment on a pull request.
 
 Photos:
@@ -37,7 +45,7 @@ See Problems list in your Eclipse/Netbeans. If it has an error, please add a iss
 
 Open in Project Explorer , click right of your mouse and Press Run.
 
-# 1: Others (disambugation)
+# Others
 Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" command is for Debian/Ubuntu. This project is under following usage:
 
 >   a) Java Project does not add information in working days.
@@ -49,14 +57,3 @@ Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" comm
 >   d) Java Project can see old descriptions when we added description.
   
 Those usages are not a mess, d) saying we can see old description when we adding new description, c) saying issues only me can merge and close, b) saying we have an constructive calender in searching days in [GitHub](https://github.com). a) saying I don't add description on README on my working days, so this is why we called this "disambugation". Why we added that usage, because this project is different to other projects.
-
-## 1.1: Unrelated to:
-A website called [Java Project](www.javaproject.org).
-A repository called [Jevins/JavaProject](github.com/Jevins/JavaProject).
-A username called Javaproject.
-A people called Java A. Project.
-### 1.1.1: Disambugation page
- - Java Project, a website.
- - Java Project, a repository.
- - Java Project, a username.
- - Java Project, a people.
