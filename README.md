@@ -3,19 +3,22 @@ Use Eclipse/Netbeans Java to run this program (Title called "Sourcejav"), follow
 
 Alternatively, Eclipse/Netbeans can run like "killall java" to stop your program and Eclipse/Netbeans. This command when Eclipse/Netbeans GUI does not stops working,  do **not** run like "killall java" or "killall -9 java", but if Eclipse/Netbeans stops working, you need to run things like in terminal "killall java" or "killall -9 java". 
 
-Using Netbeans or Eclipse to change GitHub project, you also can type following command:
+Using Eclipse/Netbeans, you also can type following command:
 
 > sudo apt-get install netbeans eclipse
 
-or 
+They are rarely install using those command, because it is similar to download it at web site. If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue. Issue do not post as an question encountered, please post as an comment on a pull request.
 
+### Eclipse:
+Download Eclipse at www.eclipse.org or using following command:
 > sudo apt-get install eclipse
 
-or 
-
+This command only support for Debian/Ubuntu.
+### Netbeans:
+Download Netbeans at www.netbeans.org or using following command:
 > sudo apt-get install netbeans
 
-Or download Eclipse at www.eclipse.org. They are rarely install using those command, because it is similar to download it at web site. If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue. Issue do not post as an question encountered, please post as an comment on a pull request.
+This command only support for Debian/Ubuntu.
 
 Photos:
 ![alt text](0a.png "S1: Showing this program's photo.")
