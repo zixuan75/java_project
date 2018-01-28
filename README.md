@@ -105,7 +105,7 @@ This table is we added some pull requests and issues.
  - We added pull requests because two branches are different.
  - We added issues because don't know what i doing and have bugs. Either issues can not solve to merge pull requests on this project.
 
-Just one issue per year for adding newest versions and adding commits. While we add new pull request, this file will be long because we just do that.
+Just one issue per year for adding newest versions and adding commits. While we add new pull request, this file will be long because we just do to add merge commits.
 
 ### Comment issues
 When I comment your issue, you need reply my comment. It is not possible, if I don't reply you how to solve your problem, you try it. So commenting issues are not possible, commenting are reply to your issue. If a command solved your problem, I will close your issue.
