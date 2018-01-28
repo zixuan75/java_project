@@ -5,10 +5,10 @@ Alternatively, Eclipse/Netbeans can run like "killall java" to stop your program
 
 If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue if you have an error and a problem you've encountered on zixuan75/java_project. Issue do not post as you have an question on this project, please post as an comment on a pull request "Beta folder".
 
-Photos are not a instance of all of them code written in Java, it maybe a part, so we don't add all of them code written in Java. So this is why we don't insert photo all of them code written in Java, we insert photo a part of code written in Java, and we don't edit all of them code written in Java.
+Photos are not a instance of all of them code written in Java, it maybe a part, so we don't add all of them code written in Java. So this is why we don't insert photo all of them code written in Java, we insert photo a part of code written in Java, and we don't edit all of them code written in Java. Maintainly, this code isn't correct, so we removed from editing.
 
 
-Two photo on Ubuntu 16.04:
+Two photos:
 ![alt text](0a.png "S1: Showing this program's photo.")
 ![alt text](0b.png "S2: Showing written in Java's codes and output text.")
 Those photos are showing program shows what and program's output is what, does not show the code is what, and this is why we added photo to show what that program shows. But show a part of my code, not all code, because do it does not useful for showing my code is what.
