@@ -30,3 +30,16 @@ In Eclipse/Netbeans, import this project. -->
 See Problems list in your Eclipse/Netbeans. If it has an error, please add a issue instead of edit my code. -->
 
 Open in Project Explorer , click right of your mouse and Press Run.
+
+# Others (disambugation)
+Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" command is for Debian/Ubuntu. This project is under following usage:
+
+>   a) Java Project does not add information in working days.
+ 
+>   b) Java Project has an constructive calendar to see what day is constructive. (If that day is a constructive day, I can see this project. 
+ 
+>   c) Java Project others does not have write permissions in issues to merge, only me can merge and close issues.
+ 
+>   d) Java Project can see old descriptions when we added description.
+  
+Those usages are not a mess, d) saying we can see old description when we adding new description, c) saying issues only me can merge and close, b) saying we have an constructive calender in searching days in [GitHub](https://github.com). a) saying I don't add description on README on my working days, so this is why we called this "disambugation". Why we added that usage, because this project is different to other projects.
