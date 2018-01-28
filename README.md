@@ -70,7 +70,6 @@ See Problems list in your Eclipse/Netbeans. -->
 If it has an error and problem you've encountered, please add a issue instead of edit my code written in Java. -->
 
 Open in Project Explorer , click right of your mouse and Press Run.
-
 # Others
 Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" command is for Debian/Ubuntu. This project is under following usage description:
 
