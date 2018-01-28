@@ -15,7 +15,7 @@ or
 
 > sudo apt-get install netbeans
 
-Or download Eclipse at www.eclipse.com. They are rarely install using those command, because it is similar to download it at web site. If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue. Issue do not post as an question encountered, please post as an comment on a pull request.
+Or download Eclipse at www.eclipse.org. They are rarely install using those command, because it is similar to download it at web site. If you have an problem, please post as an issue on this project (not lincongNMR/java_project). The Java support does not use Eclipse to support Java Application, so you post them as an issue. Issue do not post as an question encountered, please post as an comment on a pull request.
 
 Photos:
 ![alt text](0a.png "S1: Showing this program's photo.")
