@@ -128,4 +128,3 @@ Replying please add a mention like "@zixuan75", adding new comment on pull reque
 Adding files and comment does not make sense to ask question, do not add files then add a comment in pull request. Adding something does not work when we close the *Beta folder* pull request.
 #### Deleting comment
 Do not delete comment when you create this comment, deleting comment I will lock the *Beta folder* conversation. Deleting comments are not making sense if you created your comment but dosen't solved, but you also can delete your comment when it is solved.
-
