@@ -1,1 +1,2 @@
-issue %1 closed means solved
+issue %1 closed means solved.
+The biggest problem is a issue does not make sense, except a pull request instance of an issue.
