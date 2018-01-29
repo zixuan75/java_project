@@ -1,4 +1,8 @@
 JFrame com.applet.future.features
 JPanel com.applet.future.main
 JApplet com.applet.future.tools
+<<<<<<< HEAD
 JApplication com.applet.future.application
+=======
+JApplication com.applet.future.application
+>>>>>>> 98543886a1698ce7324ba8b6793788ce3ba30363
