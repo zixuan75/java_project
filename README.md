@@ -1,5 +1,5 @@
 # java_project
-Use Eclipse(like eclipse.org)/Netbeans(like netbeans.org) Java to run this program (Title called "Sourcejav"), following screenshot is showing this program running and output text. Please install the **newest version of Java (Java 8 update 121)**, because the program only support for Java 8 update 121. Usage *quote required (**JPanel**)* is only support for Java 8 update 121, the Java 9 also support for code "JPanel a = new JPanel()" but Java 9 does not support for code "JPanel a = new JPanel("blah blah blah")". Actually, this code is not using in Java 9, so you do not install Java 9 in this reason, but also you can install Java 8 when you are using "JPanel a = new JPanel("blah blah blah")" on a line.
+Use Eclipse/Netbeans Java to run this program (Title called "Sourcejav"), following screenshot is showing this program running and output text. Please install the **newest version of Java (Java 8 update 121)**, because the program only support for Java 8 update 121. Usage *quote required (**JPanel**)* is only support for Java 8 update 121, the Java 9 also support for code "JPanel a = new JPanel()" but Java 9 does not support for code "JPanel a = new JPanel("blah blah blah")". Actually, this code is not using in Java 9, so you do not install Java 9 in this reason, but also you can install Java 8 when you are using "JPanel a = new JPanel("blah blah blah")" on a line.
 
 Alternatively, Eclipse/Netbeans can run like "killall java" to stop your program and Eclipse/Netbeans. This command when Eclipse/Netbeans GUI does not stops working,  do **not** run like "killall java" or "killall -9 java", but if Eclipse/Netbeans stops working, you need to run things like type "killall java" or "killall -9 java". The command "killall -9 java"/"killall java" to close all program written in Java, so do not do it in terminal.
 
@@ -10,7 +10,7 @@ Photos are not a instance of all of them code written in Java, it maybe a part, 
 Two photos:
 ![alt text](0a.png "S1: Showing this program's photo.")
 ![alt text](0b.png "S2: Showing written in Java's codes and output text.")
-Those photos are showing program shows what and program's output is what, does not show the code is what, and this is why we added photo to show what that program shows. But show a part of my code, not all code, because do it does not useful for showing my code is what.
+Those photos are showing program shows what and program's output is what, does not show the code is what, and this is why we added photo to show what that program shows. But show a part of my code, not all code, because do it does not useful for showing my code written in Java is wroted what.
 
 Actually, this screenshot are showing a part of them code written in Java, not all of them code written in Java. It is no longer needed to take a screenshot, see my last sentence that is saying:
 
@@ -70,6 +70,11 @@ See Problems list in your Eclipse/Netbeans. -->
 If it has an error and problem you've encountered, please add a issue instead of edit my code written in Java. -->
 
 Open in Project Explorer , click right of your mouse and Press Run.
+<<<<<<< HEAD
+=======
+
+Done!
+>>>>>>> 610a7e5ae41f6905f6dddc6850f3023721fdd193
 # Others
 Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" command is for Debian/Ubuntu. This project is under following usage description:
 
@@ -109,7 +114,7 @@ When I comment your issue, you need reply my comment. It is not possible, if I d
 
 It must be comment your issue when you don't have a new challenge can work, if I use a command is work for you, I going to close your issue for my challenge you can work.
 
-Commenting issues are not similar to add a issue when you solved a my challenge, I want going to close your isssue when solved your issue with typing a command. We does not use a bug to add some pull requests on this respository, but if your issne dosen't make sense, I going to close your issue. 
+Commenting issues are not similar to add a issue when you solved for my challenge, I want going to close your isssue when solved your issue with typing a command. We does not use a bug to add some pull requests on this respository, but if your issne dosen't make sense, I going to close your issue for more description. 
 
 ## Add a comment on *Beta folder* pull request
 Please do not add a question that does not make sense, must be I understanding what are you saying. If I add a question does not make sense, I can delete my comment. If you add an comment does not understand, I have write permission to delete your comment. 
@@ -120,3 +125,12 @@ Don't forgot your comment needs make sense and I can understand what are you ask
 
 1. It means we have write permission to access, can delete comment when we don't understand what are you saying.
 2. We tell you please add enough description, because we don't allow add we don't understand what are you saying.
+### Guide to comment
+Replying please add a mention like "@zixuan75", adding new comment on pull requests can not close pull request then comment. If you close *Beta folder* pull request, I will lock this pull request.
+#### Add files and comment
+Adding files and comment does not make sense to ask question, do not add files then add a comment in pull request. Adding something does not work when we close the *Beta folder* pull request.
+#### Deleting comment
+Do not delete comment when you create this comment, deleting comment I will lock the *Beta folder* conversation. Deleting comments are not making sense if you created your comment but dosen't solved, but you also can delete your comment when it is solved.
+
+
+
