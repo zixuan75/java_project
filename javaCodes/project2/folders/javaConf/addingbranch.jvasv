@@ -1,0 +1,11 @@
+import java, branch; -->
+import branch; -->
+function private color(THIRD color){; -->
+  // PHP rendering here; -->
+  phpRender({
+    java.branch.requestion("HTML");
+    branch.select_repository("java_proejct");
+  })
+  echo "$java: $branch"; -->
+}-->
+end
