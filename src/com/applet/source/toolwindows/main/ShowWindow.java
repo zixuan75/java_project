@@ -17,6 +17,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import java.util.Scanner;
 
 import javax.swing.AbstractAction;
 import javax.swing.Action;
@@ -38,6 +39,7 @@ public class ShowWindow extends JPanel{
     private static JFrame frame = new JFrame("Sourcejav");
     private static Action folderAction = new NewFolderAction();
     private static Action saveAction = new SaveAction();
+    private static Action gotoAction = new GoToAction();
     private static JTextArea textArea=new JTextArea(9, 30);  
     private static final int MIN_AGE = 0;
     private static final int MAX_AGE = 100;
@@ -56,6 +58,7 @@ public class ShowWindow extends JPanel{
     	fileMenu.add(new JMenuItem(action));
     	fileMenu.add(new JMenuItem(saveAction));
     	fileMenu.add(new JMenuItem(folderAction));
+    	fileMenu.add(new JMenuItem(gotoAction));
     	
     	saveField=new JTextField(15);
     	fileMenu.add(saveField);
@@ -130,6 +133,20 @@ public class ShowWindow extends JPanel{
     			} catch (IOException e) {
     				e.printStackTrace();
     			}
+    		}
+    	}
+    }
+    private static class GoToAction extends AbstractAction{
+    	public GoToAction() {
+    		putValue(NAME, "Go to a line");
+    		putValue(MNEMONIC_KEY, new Integer(KeyEvent.VK_U));
+    	}
+    	public void actionPerformed(ActionEvent ae) {
+    		System.out.println("Goto Line");
+    		Scanner s=new Scanner(System.in);
+    		while (true) {
+    			if (s.hasNextLine() )
+    				System.out.println(s.nextLine() );
     		}
     	}
     }
