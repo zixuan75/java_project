@@ -1,3 +1,4 @@
 .settings/
 !filename.txt
+manifest.mf
 /bin/
