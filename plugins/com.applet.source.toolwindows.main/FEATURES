@@ -1,0 +1,4 @@
+JFrame com.applet.future.features
+JPanel com.applet.future.main
+JApplet com.applet.future.tools
+JApplication com.applet.future.application
