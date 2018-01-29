@@ -110,7 +110,7 @@ When I comment your issue, you need reply my comment. It is not possible, if I d
 
 It must be comment your issue when you don't have a new challenge can work, if I use a command is work for you, I going to close your issue for my challenge you can work.
 
-Commenting issues are not similar to add a issue when you solved a my challenge, I want going to close your isssue when solved your issue with typing a command. We does not use a bug to add some pull requests on this respository, but if your issne dosen't make sense, I going to close your issue. 
+Commenting issues are not similar to add a issue when you solved for my challenge, I want going to close your isssue when solved your issue with typing a command. We does not use a bug to add some pull requests on this respository, but if your issne dosen't make sense, I going to close your issue. 
 
 ## Add a comment on *Beta folder* pull request
 Please do not add a question that does not make sense, must be I understanding what are you saying. If I add a question does not make sense, I can delete my comment. If you add an comment does not understand, I have write permission to delete your comment. 
