@@ -73,6 +73,7 @@ If it has an error and problem you've encountered, please add a issue instead of
 
 Open in Project Explorer , click right of your mouse and Press Run.
 
+Done!
 # Others
 Java Project is good for running in Debian/Ubuntu, and the ""sudo apt-get"" command is for Debian/Ubuntu. This project is under following usage description:
 
