@@ -1,4 +1,3 @@
 .settings/
-!/bin/
-filename.txt
-
+!filename.txt
+/bin/
