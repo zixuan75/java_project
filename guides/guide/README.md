@@ -49,3 +49,11 @@ See Problems list in your Eclipse/Netbeans. -->
 If it has an error and problem you've encountered, please add a issue instead of edit my code written in Java. -->
 
 Open in Project Explorer , click right of your mouse and Press Run.
+# Others
+
+## Guide to comment
+
+Replying please add a mention like "@zixuan75", adding new comment on pull requests can not close pull request then comment. If you close Beta folder pull request, I will lock this pull request.
+### Add files and comment
+
+Adding files and comment does not make sense to ask question, do not add files then add a comment in pull request. Adding something does not work when we close the Beta folder pull request.
