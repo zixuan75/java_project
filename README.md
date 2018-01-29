@@ -107,13 +107,13 @@ This table is we added some pull requests and issues.
 Just one issue per year for adding newest versions and adding commits. While we add new pull request, this file will be long because we just do to add merge commits.
 
 ### Comment issues
-When I comment   your issue, you need reply my comment. It is not possible, if I don't reply you how to solve your problem, you try it. So commenting issues are not possible, commenting are reply to your issue. If a command solved your problem, I will close your issue.
+When I comment your issue, you need reply my comment. It is not possible, if I don't reply you how to solve your problem, you try it. So commenting issues are not possible, commenting are reply to your issue. If a command solved your problem, I will close your issue.
 
 It must be comment your issue when you don't have a new challenge can work, if I use a command is work for you, I going to close your issue for my challenge you can work.
 
 Commenting issues are not similar to add a issue when you solved for my challenge, I want going to close your isssue when solved your issue with typing a command. We does not use a bug to add some pull requests on this respository, but if your issne dosen't make sense, I going to close your issue for more description. 
 
-## Add a comment on *Beta folder* pull request
+## Add a comment on the *Beta folder* pull request
 Please do not add a question that does not make sense, must be I understanding what are you saying. If I add a question does not make sense, I can delete my comment. If you add an comment does not understand, I have write permission to delete your comment. 
 
 Don't forgot your comment needs make sense and I can understand what are you asking. We can merge pull requests or issues and close pull requests or issues this is why we have write permission access to delete your comment.
@@ -128,3 +128,5 @@ Replying please add a mention like "@zixuan75", adding new comment on pull reque
 Adding files and comment does not make sense to ask question, do not add files then add a comment in pull request. Adding something does not work when we close the *Beta folder* pull request.
 #### Deleting comment
 Do not delete comment when you create this comment, deleting comment I will lock the *Beta folder* conversation. Deleting comments are not making sense if you created your comment but dosen't solved, but you also can delete your comment when it is solved.
+
+You can delete a comment when it is solved, except you can solve your problem. It is not possible to delete comments when you have an problem, the *Beta folder* pull request is going be locked conversation.
