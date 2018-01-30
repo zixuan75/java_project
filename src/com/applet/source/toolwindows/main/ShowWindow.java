@@ -145,9 +145,41 @@ public class ShowWindow extends JPanel{
     		System.out.println("Goto Line");
     		Scanner s=new Scanner(System.in);
     		while (true) {
-    			if (s.hasNextLine() )
+    			if (s.hasNextLine() ) {
     				System.out.println(s.nextLine() );
+    				if (s.nextLine() == "2") {
+    					if (s.hasNextLine() && s.nextLine()=="3") {
+    						try {
+    							String previousLine="";
+    							if (s.nextLine()=="4")
+    								System.out.println("Next line: "+s.nextLine());
+    							Scanner s2=new Scanner(s.findInLine("%3"));
+    							if (s2.hasNextLine() ) {
+    								String nextLine=s.next();
+    								s2.findInLine(nextLine);
+									String next=s.next();
+    								if (s2.nextLine()=="2") {
+    									nextLine=s2.nextLine();
+    									System.out.println(nextLine);
+    									String prevLine=s.toString();
+    									previousLine=prevLine.substring(0, 1);    									
+    								}
+    								while (nextLine != null) {
+    									nextLine.concat(System.lineSeparator() );
+    									String field=s.next().substring(0, 2);
+    									field=nextLine.substring(0, 1);
+    								}
+    							}
+    							System.in.close();
+    						} catch (IOException e) {
+    							// TODO Auto-generated catch block
+    							e.printStackTrace();
+    						}
+    					}
+    				}
+    			}
     		}
+    		s.close();
     	}
     }
     private static class SaveAction extends AbstractAction{
