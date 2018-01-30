@@ -1,6 +1,7 @@
 package com.applet.source.toolwindows.main;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -126,6 +127,7 @@ public class ShowWindow extends JPanel{
     			try (Writer writer = new BufferedWriter(new OutputStreamWriter(
     					new FileOutputStream(textField.getText().toString() ), "utf-8"))) {
         			frame.add(textArea);
+        			textArea.setBackground(Color.blue);
     				writer.close();
 
     			} catch (FileNotFoundException e){
@@ -179,7 +181,6 @@ public class ShowWindow extends JPanel{
     				}
     			}
     		}
-    		s.close();
     	}
     }
     private static class SaveAction extends AbstractAction{
