@@ -31,10 +31,10 @@ public class ToolsWindow extends JPanel{
 		res.setVisible(true);
 		southPanel.add(res);
 		add(southPanel, BorderLayout.SOUTH);
-		
+
 		if (res != null)
 			System.out.println("res:"+res.getText() );
-		
+
 		toolsList="demo string!";
 		String rerachcable=toolsList.substring(0, 4);
 		if (! rerachcable.isEmpty() ) {
@@ -45,7 +45,6 @@ public class ToolsWindow extends JPanel{
 			JLabel label=new JLabel(rerachcable);
 			southPanel.add(label);
 		}
-		System.out.println(toolsList);
 		try {
 			System.in.close();
 			ShowCaseBorder border=new ShowCaseBorder(toolsList);
@@ -55,7 +54,7 @@ public class ToolsWindow extends JPanel{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		format(false);
+		format(true);
 	}
 	private void format(boolean format) {
 		if (format==true) {
@@ -71,7 +70,11 @@ public class ToolsWindow extends JPanel{
 			boolean formatToExtended=true;
 			if (formatToExtended) {
 				toolsList=toolsList.substring(0, 4);
-				System.err.println(toolsList);
+				System.out.println(toolsList);
+				if (toolslist == formatting){
+					res.setText(formatting);
+					return;
+				}
 			}
 		}
 	}
