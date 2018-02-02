@@ -185,6 +185,36 @@ public class ShowWindow extends JPanel{
     				}
     			}
     		}
+        if (s.hasNextLine() ){
+          String var = new String("Goto Line");
+          if (var != null){
+            if (s.hasNextLine()){
+              Scanner s3 = s;
+              String nextLine=s3.nextLine();
+              nextLine="Next Line: "+s3.nextLine();
+              String var2=nextLine.substring(10, 30);
+              while (s3 == null) {
+                s3=new Scanner(var);
+                nextLine=s3.nextLine();
+              }
+              String previousLine=var2.toString();
+              nextLine=previousLine.substring(10, 42);
+              if (s3.nextLine()=="5"){
+                String next=s3.next();
+                next.concat(System.lineSeparator() );
+                boolean hasNextLine=s3.hasNextLine();
+                if (hasNextLine || s3.nextLine()=="6"){
+                  String nextLineFunc=s.nextLine();
+                  var="Goto Line Action: "+s3.nextLine();
+                }
+              }
+              if (s3.hasNextLine() ){
+                String var3=s3.nextLine();
+                var3=var+s.nextLine();
+              }
+            }
+          }
+        }
     	}
     }
     private static class SaveAction extends AbstractAction{
