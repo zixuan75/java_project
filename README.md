@@ -132,4 +132,4 @@ Do not delete comment when you create this comment, deleting comment I will lock
 #### Applying commits and comment
 You are not need to apply a commit, action to close **a pull request.** At the same time, you can add a different comment when you review your last comment. It is possible to close an comment and solve your problem. Solving problems are not a new pull request like *Beta folder* pull request, deleting comments are either you solved your problem. When you solved a problem, please do not add two comments for applying commits. Applying commits are not useful for comments, and you don't need to apply a commit when you dosen't add something to the pull request.
 
-A problem may be an action to applying a commit, and commenting a pull request. On the other hand, it is not possible to apply a commit because we can apply a commit. The problem is close an comment when you does not make sense for you.
+A problem may be an action to applying a commit, and commenting a pull request. On the other hand, it is not possible to apply a commit because we can apply a commit. The problem is close an comment when you does not make sense for your commit.
