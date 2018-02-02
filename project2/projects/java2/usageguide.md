@@ -20,4 +20,4 @@ You computer must have a memory over 8GB. If you don't have over 8GB memory, you
 >        at org.sourcejav.textfile.java.casejava.TextFile.initialization(TextFile.java:37)
 >	
 >        at com.main.source.protSurf.main(protSurf.java:20)
-If you have this problem, please change your memory to over 8GB.
+If you have this problem, please change your memory to over 8GB. And, if you see the red text, please open an issue.
