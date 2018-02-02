@@ -51,6 +51,7 @@ public class ShowWindow extends JPanel{
     private static JTextField textField;
     private static JTextField ageField;
     private static JLabel res;
+    private static String sources;
     public ShowWindow() {
     	setLayout(new BorderLayout());
     	JPanel eastPanel = new JPanel(new GridLayout(4, 4, 36, 66));
@@ -144,77 +145,79 @@ public class ShowWindow extends JPanel{
     		putValue(MNEMONIC_KEY, new Integer(KeyEvent.VK_U));
     	}
     	public void actionPerformed(ActionEvent ae) {
-    		System.out.println("Goto Line");
-    		Scanner s=new Scanner(System.in);
-    		while (true) {
-    			if (s.hasNextLine() ) {
-    				System.out.println(s.nextLine() );
-    				if (s.nextLine() == "2") {
-    					if (s.hasNextLine() && s.nextLine()=="3") {
-    						try {
-    							String previousLine="";
-    							if (s.nextLine()=="4")
-    								System.out.println("Next line: "+s.nextLine());
-    							Scanner s2=new Scanner(s.findInLine("%3"));
-    							if (s2.hasNextLine() ) {
-    								String nextLine=s.next();
-    								s2.findInLine(nextLine);
-									  String next=s.next();
-    								if (s2.nextLine()=="2") {
-    									nextLine=s2.nextLine();
-    									System.out.println(nextLine);
-    									String prevLine=s.toString();
-    									previousLine=prevLine.substring(0, 1);
-    								}
-    								while (nextLine != null) {
-    									nextLine.concat(System.lineSeparator() );
-    									String field=s.next().substring(0, 2);
-    									field=nextLine.substring(0, 1);
-                      if (previousLine != nextLine.substring(0, 4) ){
-                        System.out.println("Outdated line: "+nextLine);
-                        nextLine=next;
-                      }
-    								}
+        Scanner s=new Scanner(System.in);
+    		if (s.hasNextLine() ) {
+    			if (s.nextLine() == "2") {
+    				if (s.hasNextLine() && s.nextLine()=="3") {
+    					try {
+    						String previousLine="";
+    						if (s.nextLine()=="4")
+    							previousLine=s.toString();
+    						Scanner s2=new Scanner(s.findInLine("%3"));
+    						if (s2.hasNextLine() ) {
+    							String nextLine=s.next();
+    							s2.findInLine(nextLine);
+    							String next=s.next();
+    							if (s2.nextLine()=="2") {
+    								nextLine=s2.nextLine();
+    								System.out.println(nextLine);
+    								String prevLine=s.toString();
+    								previousLine=prevLine.substring(0, 1);
     							}
-    							System.in.close();
-    						} catch (IOException e) {
-    							// TODO Auto-generated catch block
-    							e.printStackTrace();
     						}
+    						System.in.close();
+    					} catch (IOException e) {
+    						// TODO Auto-generated catch block
+    						e.printStackTrace();
     					}
     				}
     			}
     		}
-        if (s.hasNextLine() ){
-          String var = new String("Goto Line");
-          if (var != null){
-            if (s.hasNextLine()){
-              Scanner s3 = s;
-              String nextLine=s3.nextLine();
-              nextLine="Next Line: "+s3.nextLine();
-              String var2=nextLine.substring(10, 30);
-              while (s3 == null) {
-                s3=new Scanner(var);
-                nextLine=s3.nextLine();
+    		if (s.hasNextLine() ){
+    			String var = new String("Goto Line");
+    			if (var != null){
+    				if (s.hasNextLine()){
+    					Scanner s3 = s;
+    					String nextLine=s3.nextLine();
+              boolean actionFinished=false;
+    					nextLine="Next Line: "+s3.nextLine();
+    					String var2=nextLine.substring(10, 30);
+    					while (s3 == null) {
+    						s3=new Scanner(var);
+    						nextLine=s3.nextLine();
+    					}
+    					String previousLine=var2.toString();
+    					nextLine=previousLine.substring(10, 42);
+              String nextLineFunc="";
+    					System.out.println(var);
+    					if (s3.nextLine()=="5"){
+    						String next=s3.next();
+    						next.concat(System.lineSeparator() );
+    						boolean hasNextLine=s3.hasNextLine();
+    						if (hasNextLine || s3.nextLine()=="6"){
+    							nextLineFunc=s.nextLine();
+    							var="Goto Line Action: "+s3.nextLine();
+    						}
+    					}
+              String var3=s3.nextLine()+nextLineFunc.substring(10, 14);
+              nextLineFunc.concat(var3);
+              nextLine=nextLineFunc+previousLine.substring(10, 28);
+              if (nextLineFunc != null){
+                nextLineFunc.concat(System.lineSeparator() );
+                var2=s.nextLine()+s.toString()+nextLine+previousLine+"Action";
+                String var4=var2.substring(10, 56);
               }
-              String previousLine=var2.toString();
-              nextLine=previousLine.substring(10, 42);
-              if (s3.nextLine()=="5"){
-                String next=s3.next();
-                next.concat(System.lineSeparator() );
-                boolean hasNextLine=s3.hasNextLine();
-                if (hasNextLine || s3.nextLine()=="6"){
-                  String nextLineFunc=s.nextLine();
-                  var="Goto Line Action: "+s3.nextLine();
-                }
-              }
-              if (s3.hasNextLine() ){
-                String var3=s3.nextLine();
-                var3=var+s.nextLine();
-              }
-            }
+    					if (s3.hasNextLine() ){
+    						var3=var+s.nextLine();
+                actionFinished=true;
+    					}
+    				}
+    			}
+          if (s.nextLine()=="7"){
+            String nextToPrevLine=s.nextLine()+":"+s.toString();
+            System.out.println("Next Line to Previous Line: "+nextToPrevLine);
           }
-        }
+    		}
     	}
     }
     private static class SaveAction extends AbstractAction{
