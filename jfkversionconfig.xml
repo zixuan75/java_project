@@ -1,3 +1,4 @@
 <xml version="1.0">
   <description>JFK configure: 1.0.4</description>
+  <import folder="nbprojects/" file="nbprojects/project.xml">
 </xml>
