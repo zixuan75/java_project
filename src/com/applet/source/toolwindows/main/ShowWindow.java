@@ -91,7 +91,7 @@ public class ShowWindow extends JPanel{
 
     	ageField = new JTextField(15);
     	northPanel.add(ageField);
-    	JLabel folderLabel = new JLabel("Create Folder/File label:");
+    	JLabel folderLabel = new JLabel("Create Folder\nFile label:");
     	northPanel.add(folderLabel);
     	textField=new JTextField(15);
     	northPanel.add(textField);
