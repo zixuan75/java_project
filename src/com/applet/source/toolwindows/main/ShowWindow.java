@@ -210,13 +210,14 @@ public class ShowWindow extends JPanel{
               }
     					if (s3.hasNextLine() ){
     						var3=var+s.nextLine();
-                actionFinished=true;
+                var3.concat(s.nextLine() );
     					}
     				}
     			}
           if (s.nextLine()=="7"){
             String nextToPrevLine=s.nextLine()+":"+s.toString();
             System.out.println("Next Line to Previous Line: "+nextToPrevLine);
+            actionFinished=true;
           }
     		}
     	}
