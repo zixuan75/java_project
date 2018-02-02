@@ -41,7 +41,7 @@ public class ShowWindow extends JPanel{
     private static Action folderAction = new NewFolderAction();
     private static Action saveAction = new SaveAction();
     private static Action gotoAction = new GoToAction();
-    private static JTextArea textArea=new JTextArea(9, 30);  
+    private static JTextArea textArea=new JTextArea(9, 30);
     private static final int MIN_AGE = 0;
     private static final int MAX_AGE = 100;
     private static JMenu fileMenu;
@@ -60,17 +60,17 @@ public class ShowWindow extends JPanel{
     	fileMenu.add(new JMenuItem(saveAction));
     	fileMenu.add(new JMenuItem(folderAction));
     	fileMenu.add(new JMenuItem(gotoAction));
-    	
+
     	saveField=new JTextField(15);
     	fileMenu.add(saveField);
-    	
+
     	JMenuBar menuBar = new JMenuBar();
     	fileMenuBar.add(fileMenu);
     	JMenu menu = new JMenu("File");
     	menu.add(new JMenuItem(action));
     	menu.add(new JMenuItem(folderAction));
     	menuBar.add(menu);
-    	eastPanel.add(menuBar); 
+    	eastPanel.add(menuBar);
     	eastPanel.add(new JButton(action) );
     	add(eastPanel, BorderLayout.EAST);
     	JPanel southPanel = new JPanel();
@@ -82,7 +82,7 @@ public class ShowWindow extends JPanel{
     	fileField=new JTextField(15);
     	southPanel.add(fileField);
     	add(southPanel, BorderLayout.SOUTH);
-    	
+
     	JPanel northPanel = new JPanel();
     	northPanel.setLayout(new FlowLayout());
     	JLabel label = new JLabel("Customing Project:");
@@ -96,7 +96,7 @@ public class ShowWindow extends JPanel{
     	northPanel.add(textField);
     	add(northPanel, BorderLayout.NORTH);
 
-    	JPanel centerPanel = new JPanel();  
+    	JPanel centerPanel = new JPanel();
     	JButton btn = new JButton("Customize");
     	btn.addActionListener(new BtnListener());
     	centerPanel.add(btn);
@@ -104,7 +104,7 @@ public class ShowWindow extends JPanel{
     	res = new JLabel();
     	res.setVisible(false);
     	centerPanel.add(res);
-    	
+
     	add(centerPanel, BorderLayout.CENTER);
     }
     public void showWindow() {
@@ -159,17 +159,21 @@ public class ShowWindow extends JPanel{
     							if (s2.hasNextLine() ) {
     								String nextLine=s.next();
     								s2.findInLine(nextLine);
-									String next=s.next();
+									  String next=s.next();
     								if (s2.nextLine()=="2") {
     									nextLine=s2.nextLine();
     									System.out.println(nextLine);
     									String prevLine=s.toString();
-    									previousLine=prevLine.substring(0, 1);    									
+    									previousLine=prevLine.substring(0, 1);
     								}
     								while (nextLine != null) {
     									nextLine.concat(System.lineSeparator() );
     									String field=s.next().substring(0, 2);
     									field=nextLine.substring(0, 1);
+                      if (previousLine != nextLine.substring(0, 4) ){
+                        System.out.println("Outdated line: "+nextLine);
+                        nextLine=next;
+                      }
     								}
     							}
     							System.in.close();
