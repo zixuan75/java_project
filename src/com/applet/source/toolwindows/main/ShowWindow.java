@@ -252,6 +252,7 @@ public class ShowWindow extends JPanel{
 				out.write(myString2.getBytes() );
 				out.write("\n".getBytes() );
 				out.close();
+				System.out.println("Saved a file.");
 
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
