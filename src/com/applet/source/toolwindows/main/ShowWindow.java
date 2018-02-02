@@ -180,7 +180,6 @@ public class ShowWindow extends JPanel{
     				if (s.hasNextLine()){
     					Scanner s3 = s;
     					String nextLine=s3.nextLine();
-              boolean actionFinished=false;
     					nextLine="Next Line: "+s3.nextLine();
     					String var2=nextLine.substring(10, 30);
     					while (s3 == null) {
@@ -214,6 +213,7 @@ public class ShowWindow extends JPanel{
     					}
     				}
     			}
+          boolean actionFinished=false;
           if (s.nextLine()=="7"){
             String nextToPrevLine=s.nextLine()+":"+s.toString();
             System.out.println("Next Line to Previous Line: "+nextToPrevLine);
