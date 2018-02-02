@@ -1,5 +1,5 @@
 # Change requests
-They are rarely award the *New button bold* does not matter for @zixuan75 and @alax9.
+They are rarely award the *New button bold* does not matter for @zixuan75 and @alax9. Same folder, same file at this time. @alax9 @zixuan75 does not matter **At the new pooint @zixuan75** do then *and old point*.
 ## Add something
 This is correct for private.
 ## Delete something
