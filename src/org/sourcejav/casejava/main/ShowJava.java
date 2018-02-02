@@ -25,7 +25,7 @@ public class ShowJava {
 		String buffer="vague";
 		if (bufferVec.add(buffer) )
 			buffer.concat(bufferVec.toString() );
-
+		System.out.println("Buffer aat the new separator\nand the buffer is: "+buffer);
 		Map<String, Vector<String>> map = new HashMap<String, Vector<String>>();
 	  Vector<String> vec = new Vector<String>();
 	  vec.add("This is a example");
