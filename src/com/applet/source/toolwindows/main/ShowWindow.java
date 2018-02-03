@@ -38,7 +38,7 @@ public class ShowWindow extends JPanel{
     private static JFrame frame = new JFrame("Sourcejav");
     private static Action folderAction = new NewFolderAction();
     private static Action saveAction = new SaveAction();
-    private static JTextArea textArea=new JTextArea(9, 30);  
+    private static JTextArea textArea=new JTextArea(9, 30);
     private static final int MIN_AGE = 0;
     private static final int MAX_AGE = 100;
     private static JMenu fileMenu;
@@ -56,17 +56,17 @@ public class ShowWindow extends JPanel{
     	fileMenu.add(new JMenuItem(action));
     	fileMenu.add(new JMenuItem(saveAction));
     	fileMenu.add(new JMenuItem(folderAction));
-    	
+
     	saveField=new JTextField(15);
     	fileMenu.add(saveField);
-    	
+
     	JMenuBar menuBar = new JMenuBar();
     	fileMenuBar.add(fileMenu);
     	JMenu menu = new JMenu("File");
     	menu.add(new JMenuItem(action));
     	menu.add(new JMenuItem(folderAction));
     	menuBar.add(menu);
-    	eastPanel.add(menuBar); 
+    	eastPanel.add(menuBar);
     	eastPanel.add(new JButton(action) );
     	add(eastPanel, BorderLayout.EAST);
     	JPanel southPanel = new JPanel();
@@ -78,7 +78,7 @@ public class ShowWindow extends JPanel{
     	fileField=new JTextField(15);
     	southPanel.add(fileField);
     	add(southPanel, BorderLayout.SOUTH);
-    	
+
     	JPanel northPanel = new JPanel();
     	northPanel.setLayout(new FlowLayout());
     	JLabel label = new JLabel("Customing Project:");
@@ -92,7 +92,7 @@ public class ShowWindow extends JPanel{
     	northPanel.add(textField);
     	add(northPanel, BorderLayout.NORTH);
 
-    	JPanel centerPanel = new JPanel();  
+    	JPanel centerPanel = new JPanel();
     	JButton btn = new JButton("Customize");
     	btn.addActionListener(new BtnListener());
     	centerPanel.add(btn);
@@ -100,7 +100,7 @@ public class ShowWindow extends JPanel{
     	res = new JLabel();
     	res.setVisible(false);
     	centerPanel.add(res);
-    	
+
     	add(centerPanel, BorderLayout.CENTER);
     }
     public void showWindow() {
@@ -122,9 +122,8 @@ public class ShowWindow extends JPanel{
     		if (newFile) {
     			try (Writer writer = new BufferedWriter(new OutputStreamWriter(
     					new FileOutputStream(textField.getText().toString() ), "utf-8"))) {
-        			frame.add(textArea);
+        		frame.add(textArea);
     				writer.close();
-
     			} catch (FileNotFoundException e){
     				e.printStackTrace();
     			} catch (IOException e) {
