@@ -7,6 +7,9 @@ If you have an problem, please post as an issue on this project (not lincongNMR/
 
 Photos are not a instance of all of them code written in Java, it maybe a part, so we don't add all of them code written in Java. So this is why we don't insert photo all of them code written in Java, we insert photo a part of code written in Java, and we don't edit all of them code written in Java. Maintainly, this code isn't correct, so we removed from editing.
 
+
+
+
 Two photos:
 ![alt text](0a.png "S1: Showing this program's photo.")
 ![alt text](0b.png "S2: Showing written in Java's codes and output text.")
