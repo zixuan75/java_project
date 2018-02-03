@@ -1,1 +1,0 @@
-issue %1 closed means solved
