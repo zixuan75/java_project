@@ -1,0 +1,2 @@
+We push an required file from this branch.
+This branch is from "java_2".
