@@ -6,13 +6,9 @@ Screenshot:
 ![alt text](0b.png "S2: Showing written in Java's codes and output text.")
 Following is the installation usage:
 ## Installation
-If you are no Java, download at [here](www.java.com/download) but **need install Java 8 update 121** or please type following command (On Debian/Ubuntu):
+If you are no Java, download at [here](www.java.com/download) but **need install Java 8 update 121** or please type following command:
 
-> sudo apt-get install openjdk-8-jre
-
-or:
-
-> sudo apt-get install java -->
+> sudo apt-get install openjdk-8-jre -->
 
 If you are no Eclipse/Netbeans, download and install the [Eclipse](www.eclipse.org/)/[Netbeans](www.netbeans.org/) support for Java.
 
