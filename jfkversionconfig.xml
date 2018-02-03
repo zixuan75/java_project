@@ -1,0 +1,4 @@
+<xml version="1.0">
+  <description>JFK version configure: 1.0.4</description>
+  <import bothproject="home/github" bothhome="home/git/projects/github" projects="newest/git/home/github"></import>
+</xml>

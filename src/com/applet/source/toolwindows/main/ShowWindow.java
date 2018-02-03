@@ -1,6 +1,7 @@
 package com.applet.source.toolwindows.main;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -17,6 +18,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
+import java.util.Scanner;
 
 import javax.swing.AbstractAction;
 import javax.swing.Action;
@@ -38,7 +40,8 @@ public class ShowWindow extends JPanel{
     private static JFrame frame = new JFrame("Sourcejav");
     private static Action folderAction = new NewFolderAction();
     private static Action saveAction = new SaveAction();
-    private static JTextArea textArea=new JTextArea(9, 30);  
+    private static Action gotoAction = new GoToAction();
+    private static JTextArea textArea=new JTextArea(9, 30);
     private static final int MIN_AGE = 0;
     private static final int MAX_AGE = 100;
     private static JMenu fileMenu;
@@ -48,6 +51,8 @@ public class ShowWindow extends JPanel{
     private static JTextField textField;
     private static JTextField ageField;
     private static JLabel res;
+    private static String sources;
+    private static String sourceButton;
     public ShowWindow() {
     	setLayout(new BorderLayout());
     	JPanel eastPanel = new JPanel(new GridLayout(4, 4, 36, 66));
@@ -56,17 +61,18 @@ public class ShowWindow extends JPanel{
     	fileMenu.add(new JMenuItem(action));
     	fileMenu.add(new JMenuItem(saveAction));
     	fileMenu.add(new JMenuItem(folderAction));
-    	
+    	fileMenu.add(new JMenuItem(gotoAction));
+
     	saveField=new JTextField(15);
     	fileMenu.add(saveField);
-    	
+
     	JMenuBar menuBar = new JMenuBar();
     	fileMenuBar.add(fileMenu);
     	JMenu menu = new JMenu("File");
     	menu.add(new JMenuItem(action));
     	menu.add(new JMenuItem(folderAction));
     	menuBar.add(menu);
-    	eastPanel.add(menuBar); 
+    	eastPanel.add(menuBar);
     	eastPanel.add(new JButton(action) );
     	add(eastPanel, BorderLayout.EAST);
     	JPanel southPanel = new JPanel();
@@ -78,7 +84,7 @@ public class ShowWindow extends JPanel{
     	fileField=new JTextField(15);
     	southPanel.add(fileField);
     	add(southPanel, BorderLayout.SOUTH);
-    	
+
     	JPanel northPanel = new JPanel();
     	northPanel.setLayout(new FlowLayout());
     	JLabel label = new JLabel("Customing Project:");
@@ -86,13 +92,13 @@ public class ShowWindow extends JPanel{
 
     	ageField = new JTextField(15);
     	northPanel.add(ageField);
-    	JLabel folderLabel = new JLabel("Create Folder/File label:");
+    	JLabel folderLabel = new JLabel("Create Folder\nFile label:");
     	northPanel.add(folderLabel);
     	textField=new JTextField(15);
     	northPanel.add(textField);
     	add(northPanel, BorderLayout.NORTH);
 
-    	JPanel centerPanel = new JPanel();  
+    	JPanel centerPanel = new JPanel();
     	JButton btn = new JButton("Customize");
     	btn.addActionListener(new BtnListener());
     	centerPanel.add(btn);
@@ -100,7 +106,7 @@ public class ShowWindow extends JPanel{
     	res = new JLabel();
     	res.setVisible(false);
     	centerPanel.add(res);
-    	
+
     	add(centerPanel, BorderLayout.CENTER);
     }
     public void showWindow() {
@@ -112,7 +118,7 @@ public class ShowWindow extends JPanel{
     }
     private static class NewFolderAction extends AbstractAction{
     	public NewFolderAction() {
-    		putValue(NAME, "New a folder ");
+    		putValue(NAME, "New a folder");
     		putValue(MNEMONIC_KEY, new Integer(KeyEvent.VK_N));
     	}
     	public void actionPerformed(ActionEvent ae) {
@@ -122,14 +128,114 @@ public class ShowWindow extends JPanel{
     		if (newFile) {
     			try (Writer writer = new BufferedWriter(new OutputStreamWriter(
     					new FileOutputStream(textField.getText().toString() ), "utf-8"))) {
-        			frame.add(textArea);
     				writer.close();
-
+            System.out.println("A new folder\n"+textField);
+            sources="folder at them\nSystem new folder here: "+textField.toString();
+        	  frame.add(textArea);
+        		textArea.setBackground(Color.blue);
+    				writer.close();
+            System.out.println("A new folder\n"+textField);
+            sources="folder at them\nSystem new folder here: "+textField.getText().toString();
+            sourceButton="A folder at your deployment\n they are a new field at this time.";
     			} catch (FileNotFoundException e){
     				e.printStackTrace();
     			} catch (IOException e) {
     				e.printStackTrace();
     			}
+    		}
+          if (sourceButton.substring(0, 1) != "A"){
+            System.out.println("Error: The category is uncategorized at the same time\nSource: (ShowWindow.java:143)");
+            return;
+          }
+    		}else{
+          fileS.delete();
+        }
+    	}
+    }
+    private static class GoToAction extends AbstractAction{
+    	public GoToAction() {
+    		putValue(NAME, "Go to a line");
+    		putValue(MNEMONIC_KEY, new Integer(KeyEvent.VK_U));
+    	}
+    	public void actionPerformed(ActionEvent ae) {
+        Scanner s=new Scanner(System.in);
+    		if (s.hasNextLine() ) {
+    			if (s.nextLine() == "2") {
+    				if (s.hasNextLine() && s.nextLine()=="3") {
+    					try {
+    						String previousLine="";
+    						if (s.nextLine()=="4")
+    							previousLine=s.toString();
+    						Scanner s2=new Scanner(s.findInLine("%3"));
+    						if (s2.hasNextLine() ) {
+    							String nextLine=s.next();
+    							s2.findInLine(nextLine);
+    							String next=s.next();
+    							if (s2.nextLine()=="2") {
+    								nextLine=s2.nextLine();
+    								System.out.println(nextLine);
+    								String prevLine=s.toString();
+    								previousLine=prevLine.substring(0, 1);
+    							}
+    						}
+    						System.in.close();
+    					} catch (IOException e) {
+    						// TODO Auto-generated catch block
+    						e.printStackTrace();
+    					}
+    				}
+    			}
+    		}
+    		if (s.hasNextLine() ){
+    			String var = new String("Goto Line");
+    			if (var != null){
+    				if (s.hasNextLine()){
+    					Scanner s3 = s;
+    					String nextLine=s3.nextLine();
+    					nextLine="Next Line: "+s3.nextLine();
+    					String var2=nextLine.substring(10, 30);
+    					while (s3 == null) {
+    						s3=new Scanner(var);
+    						nextLine=s3.nextLine();
+    					}
+    					String previousLine=var2.toString();
+    					nextLine=previousLine.substring(10, 42);
+              String nextLineFunc="";
+    					System.out.println(var);
+    					if (s3.nextLine()=="5"){
+    						String next=s3.next();
+    						next.concat(System.lineSeparator() );
+    						boolean hasNextLine=s3.hasNextLine();
+    						if (hasNextLine || s3.nextLine()=="6"){
+    							nextLineFunc=s.nextLine();
+    							var="Goto Line Action: "+s3.nextLine();
+    						}
+    					}
+              String var3=s3.nextLine()+nextLineFunc.substring(10, 14);
+              nextLineFunc.concat(var3);
+              nextLine=nextLineFunc+previousLine.substring(10, 28);
+              if (nextLineFunc != null){
+                nextLineFunc.concat(System.lineSeparator() );
+                var2=s.nextLine()+s.toString()+nextLine+previousLine+"Action";
+                String var4=var2.substring(10, 56);
+              }
+    					if (s3.hasNextLine() ){
+    						var3=var+s.nextLine();
+                var3.concat(s.nextLine() );
+    					}
+    				}
+    			}
+          boolean actionFinished=false;
+          if (s.nextLine()=="7"){
+            System.out.println(s.nextLine() );
+            String currentLine=s3.toString();
+            currentLine.concat(System.lineSeparator() );
+          }
+          if (s.nextLine()=="8"){
+            String nextToPrevLine=s.nextLine()+":"+s.toString();
+            System.out.println("Next Line to Previous Line: "+nextToPrevLine);
+            actionFinished=true;
+          }
     		}
     	}
     }
@@ -149,6 +255,7 @@ public class ShowWindow extends JPanel{
 				e.printStackTrace();
 			}
 			try {
+        System.out.println(sources);
 				StringBuilder sb = new StringBuilder();
 				String line = br.readLine();
 
@@ -163,6 +270,7 @@ public class ShowWindow extends JPanel{
 				out.write(myString2.getBytes() );
 				out.write("\n".getBytes() );
 				out.close();
+				System.out.println("Saved a file.");
 
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
@@ -186,6 +294,7 @@ public class ShowWindow extends JPanel{
                 age = Integer.parseInt(content);
                 if(isValid(age)) {
                     res.setText("age: "+age);
+                    System.out.println("Customizing the new deployment age at the same time!\nDoes not working?");
                 } else {
                     res.setText(INVALID_AGE);
                 }
@@ -209,7 +318,9 @@ public class ShowWindow extends JPanel{
     	public void actionPerformed(ActionEvent ae) {
     		try (Writer writer = new BufferedWriter(new OutputStreamWriter(
     				new FileOutputStream(fileField.getText().toString() ), "utf-8"))) {
-    			writer.write("An java writed file");
+    			writer.write("An java program writed file");
+          String atTheNewLine="Programs cannot change file at those file writers.\nChanging meanings are not useful.";
+          System.out.println(atTheNewLine);
     		} catch (FileNotFoundException e){
     			e.printStackTrace();
     		} catch (IOException e) {

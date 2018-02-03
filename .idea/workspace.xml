@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d086c57a-78cd-4199-920e-a18d1d6aa66c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.java.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/0a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/0b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/append/.classpath.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/append/index.html.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/Firstcommit.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/combine.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/gitBranchFile.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/package-info.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/packageinfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/toolwindows/main/ShowWindow$BtnListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/toolwindows/main/ShowWindow$GoToAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/toolwindows/main/ShowWindow$NewFileAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/toolwindows/main/ShowWindow$NewFolderAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/toolwindows/main/ShowWindow$SaveAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/toolwindows/main/ShowWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/applet/source/toolwindows/tools/ToolsWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/com/main/source/protSurf.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/org/sourcejav/casejava/main/ShowJava.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/org/sourcejav/casejava/source/SourcePack.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/org/sourcejav/casejava/string/main/ShowCaseBorder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/org/sourcejav/casejava/string/tools/ColorList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/org/sourcejav/casejava/string/tools/ListText.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/org/sourcejav/casejava/string/tools/Vague.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/org/sourcejav/textfile/java/casejava/TextFile.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/sourcefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bin/sourcejav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/branching/branching.pys" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/branching/newFolder/branching.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/branching/newFolder/enter.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/.netbeans_automatic_build" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/.netbeans_update_resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/combine.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/package-info.rs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/packageinfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/toolwindows/main/ShowWindow$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/toolwindows/main/ShowWindow$BtnListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/toolwindows/main/ShowWindow$NewFileAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/toolwindows/main/ShowWindow$NewFolderAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/toolwindows/main/ShowWindow$SaveAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/toolwindows/main/ShowWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/applet/source/toolwindows/tools/ToolsWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/com/main/source/protSurf.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/org/sourcejav/casejava/main/ShowJava.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/org/sourcejav/casejava/source/SourcePack.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/org/sourcejav/casejava/string/main/ShowCaseBorder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/org/sourcejav/casejava/string/tools/ColorList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/org/sourcejav/casejava/string/tools/ListText.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/org/sourcejav/casejava/string/tools/Vague.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/org/sourcejav/textfile/java/casejava/TextFile.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/classes/sourcejav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/config/config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/conflicts/modify.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/allclasses-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/allclasses-noframe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/class-use/combine.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/combine.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/main/ShowWindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/main/class-use/ShowWindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/main/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/main/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/main/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/main/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/tools/ToolsWindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/tools/class-use/ToolsWindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/tools/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/tools/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/tools/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/applet/source/toolwindows/tools/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/main/source/class-use/protSurf.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/main/source/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/main/source/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/main/source/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/main/source/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/com/main/source/protSurf.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/constant-values.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/deprecated-list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/help-doc.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index-files/index-1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index-files/index-2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index-files/index-3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index-files/index-4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index-files/index-5.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index-files/index-6.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index-files/index-7.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index-files/index-8.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index-files/index-9.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/main/ShowJava.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/main/class-use/ShowJava.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/main/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/main/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/main/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/main/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/source/SourcePack.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/source/class-use/SourcePack.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/source/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/source/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/source/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/source/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/main/ShowCaseBorder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/main/class-use/ShowCaseBorder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/main/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/main/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/main/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/main/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/tools/Vague.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/tools/class-use/Vague.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/tools/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/tools/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/tools/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/casejava/string/tools/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/textfile/java/casejava/TextFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/textfile/java/casejava/class-use/TextFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/textfile/java/casejava/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/textfile/java/casejava/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/textfile/java/casejava/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/org/sourcejav/textfile/java/casejava/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/overview-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/overview-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/overview-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/package-list" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/serialized-form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/javadoc/stylesheet.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/main/ShowWindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/main/class-use/ShowWindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/main/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/main/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/main/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/main/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/tools/ToolsWindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/tools/class-use/ToolsWindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/tools/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/tools/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/tools/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/com/applet/source/toolwindows/tools/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/help-doc.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/overview-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/overview-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/package-list" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/serialized-form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/doc/stylesheet.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/filename.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gitBranchFile.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/.classpath" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/.config" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/.java.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/01/0a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/02/0b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/03/0b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/04/0a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/0a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/0b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/guides/guide/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/issues/styleguide.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/java.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/.classpath" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/modify.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/0a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/0b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/README.config" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/applet/source/combine.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/applet/source/package-info.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/applet/source/packageinfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/applet/source/toolwindows/main/ShowWindow$BtnListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/applet/source/toolwindows/main/ShowWindow$NewFileAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/applet/source/toolwindows/main/ShowWindow$NewFolderAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/applet/source/toolwindows/main/ShowWindow$SaveAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/applet/source/toolwindows/main/ShowWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/applet/source/toolwindows/tools/ToolsWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/com/main/source/protSurf.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/org/sourcejav/casejava/main/ShowJava.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/org/sourcejav/casejava/source/SourcePack.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/org/sourcejav/casejava/string/main/ShowCaseBorder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/org/sourcejav/casejava/string/tools/ColorList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/org/sourcejav/casejava/string/tools/ListText.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/org/sourcejav/casejava/string/tools/Vague.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/org/sourcejav/textfile/java/casejava/TextFile.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/bin/sourcejav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/.netbeans_automatic_build" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/.netbeans_update_resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/combine.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/package-info.rs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/packageinfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/toolwindows/main/ShowWindow$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/toolwindows/main/ShowWindow$BtnListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/toolwindows/main/ShowWindow$NewFileAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/toolwindows/main/ShowWindow$NewFolderAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/toolwindows/main/ShowWindow$SaveAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/toolwindows/main/ShowWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/applet/source/toolwindows/tools/ToolsWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/com/main/source/protSurf.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/org/sourcejav/casejava/main/ShowJava.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/org/sourcejav/casejava/source/SourcePack.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/org/sourcejav/casejava/string/main/ShowCaseBorder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/org/sourcejav/casejava/string/tools/ColorList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/org/sourcejav/casejava/string/tools/ListText.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/org/sourcejav/casejava/string/tools/Vague.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/org/sourcejav/textfile/java/casejava/TextFile.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/build/classes/sourcejav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/javaConf/addingbranch.jvasv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/newLicense/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/Firstcommit.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/applet/source/combine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/applet/source/gitBranchFile.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/applet/source/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/applet/source/toolwindows/fircommitbool.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/applet/source/toolwindows/main/ShowWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/applet/source/toolwindows/main/commit.txt.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/applet/source/toolwindows/tools/ToolsWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/applet/source/toolwindows/tools/commit.txt.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/com/main/source/protSurf.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/org/sourcejav/casejava/main/ShowJava.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/org/sourcejav/casejava/source/SourcePack.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/org/sourcejav/casejava/string/main/ShowCaseBorder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/org/sourcejav/casejava/string/tools/ColorList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/org/sourcejav/casejava/string/tools/ListText.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/org/sourcejav/casejava/string/tools/Vague.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/org/sourcejav/textfile/java/casejava/TextFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/sourcefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaCodes/project2/folders/src/sourcejav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaConf/.classpath" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaConf/addingbranch.jvasv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaSrc0101_18.tar.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/jfkversionconfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nbproject/configs/protSurf (1).properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nbproject/configs/protSurf.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nbproject/private/config.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/nbproject/project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newThemes/N0rbert-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/newfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/com.applet.source.toolwindows.main/FEATURES" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/com.applet.source.toolwindows.main/main.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/plugins/com.applet.source.toolwindows.main/support.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/filename-2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/filename.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/0a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/0b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/applet/source/combine.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/applet/source/package-info.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/applet/source/packageinfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/applet/source/toolwindows/main/ShowWindow$BtnListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/applet/source/toolwindows/main/ShowWindow$NewFileAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/applet/source/toolwindows/main/ShowWindow$NewFolderAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/applet/source/toolwindows/main/ShowWindow$SaveAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/applet/source/toolwindows/main/ShowWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/applet/source/toolwindows/tools/ToolsWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/com/main/source/protSurf.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/org/sourcejav/casejava/main/ShowJava.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/org/sourcejav/casejava/source/SourcePack.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/org/sourcejav/casejava/string/main/ShowCaseBorder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/org/sourcejav/casejava/string/tools/ColorList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/org/sourcejav/casejava/string/tools/ListText.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/org/sourcejav/casejava/string/tools/Vague.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/org/sourcejav/textfile/java/casejava/TextFile.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/bin/sourcejav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/.netbeans_automatic_build" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/.netbeans_update_resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/combine.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/package-info.rs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/packageinfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/toolwindows/main/ShowWindow$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/toolwindows/main/ShowWindow$BtnListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/toolwindows/main/ShowWindow$NewFileAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/toolwindows/main/ShowWindow$NewFolderAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/toolwindows/main/ShowWindow$SaveAction.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/toolwindows/main/ShowWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/applet/source/toolwindows/tools/ToolsWindow.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/com/main/source/protSurf.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/org/sourcejav/casejava/main/ShowJava.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/org/sourcejav/casejava/source/SourcePack.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/org/sourcejav/casejava/string/main/ShowCaseBorder.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/org/sourcejav/casejava/string/tools/ColorList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/org/sourcejav/casejava/string/tools/ListText.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/org/sourcejav/casejava/string/tools/Vague.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/org/sourcejav/textfile/java/casejava/TextFile.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/build/classes/sourcejav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/Firstcommit.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/applet/source/combine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/applet/source/gitBranchFile.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/applet/source/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/applet/source/toolwindows/fircommitbool.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/applet/source/toolwindows/main/ShowWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/applet/source/toolwindows/main/commit.txt.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/applet/source/toolwindows/tools/ToolsWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/applet/source/toolwindows/tools/commit.txt.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/com/main/source/protSurf.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/org/sourcejav/casejava/main/ShowJava.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/org/sourcejav/casejava/source/SourcePack.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/org/sourcejav/casejava/string/main/ShowCaseBorder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/org/sourcejav/casejava/string/tools/ColorList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/org/sourcejav/casejava/string/tools/ListText.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/org/sourcejav/casejava/string/tools/Vague.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/org/sourcejav/textfile/java/casejava/TextFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/sourcefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/src/sourcejav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project2/projects/java2/usageguide.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pullrequest/guide.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/requiredFile.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/Firstcommit.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/applet/source/combine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/applet/source/gitBranchFile.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/applet/source/package-info.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/applet/source/toolwindows/main/ShowWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/applet/source/toolwindows/tools/ToolsWindow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/main/source/protSurf.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/sourcejav/casejava/main/ShowJava.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/sourcejav/casejava/source/SourcePack.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/sourcejav/casejava/string/main/ShowCaseBorder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/sourcejav/casejava/string/tools/ColorList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/sourcejav/casejava/string/tools/ListText.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/sourcejav/casejava/string/tools/Vague.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/org/sourcejav/textfile/java/casejava/TextFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sourcefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sourcejav" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/themes/N0rbert-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/themes/N0rbert.png" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.travis.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="472" />
+    <option name="y" value="33" />
+    <option name="width" value="3300" />
+    <option name="height" value="2116" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d086c57a-78cd-4199-920e-a18d1d6aa66c" name="Default" comment="" />
+      <created>1517685763902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517685763902</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="472" y="33" width="3300" height="2116" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
