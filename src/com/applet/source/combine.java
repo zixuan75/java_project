@@ -12,16 +12,16 @@ public class combine {
 		bStringVec=new Vector<String>();
 		File fileS=new File("/mnt/windows/java/combined");
 		fileS.mkdir();
-		
+
 		JLabel bStringLabel=new JLabel();
 		String bString=new String();
 		bString="Hi everything";
 		bStringVec.add(bString);
 		bStringLabel.setText(new Integer(bStringVec.size() ).toString() );
-		bString=bStringLabel.getText();
-		
+		bString="\t String: "bStringLabel.getText();
 		try {
 			System.in.close();
+			bStringLabel.setText(bString);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

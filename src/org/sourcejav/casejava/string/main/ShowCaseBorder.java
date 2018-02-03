@@ -28,8 +28,8 @@ public class ShowCaseBorder {
 			return;
 		}
 		if (! vectorVec.isEmpty() ) {
-			String vaque="all systems not vague";
-			vectorVec.addElement(vaque);
+			String vague="all systems are not vague";
+			vectorVec.addElement(vague);
 		}
 		String nearture=toolsList.substring(0, 4);
 		vectorVec.add(nearture);
@@ -44,5 +44,6 @@ public class ShowCaseBorder {
 		Vector<Vague> vagueVec;
 		Vague vague=new Vague(toolsList);
 		vague.initialization();
+		vagueVec.add(vague);
 	}
 }

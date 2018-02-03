@@ -1,0 +1,1 @@
+This program's recommended command is only support for Debian/Ubuntu.
