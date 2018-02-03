@@ -75,6 +75,8 @@ public class ToolsWindow extends JPanel{
 					res.setText(formatting);
 					return;
 				}
+				String var = formatting.substring(0, 4);
+				System.out.print(var+"\n");
 			}
 		}
 	}
