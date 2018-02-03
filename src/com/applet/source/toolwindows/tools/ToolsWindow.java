@@ -45,6 +45,7 @@ public class ToolsWindow extends JPanel{
 			JLabel label=new JLabel(rerachcable);
 			southPanel.add(label);
 		}
+		System.out.println(toolsList);
 		try {
 			System.in.close();
 			ShowCaseBorder border=new ShowCaseBorder(toolsList);
