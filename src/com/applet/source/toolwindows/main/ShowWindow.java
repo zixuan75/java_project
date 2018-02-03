@@ -130,8 +130,7 @@ public class ShowWindow extends JPanel{
         			frame.add(textArea);
         			textArea.setBackground(Color.blue);
     				writer.close();
-            System.out.println("A new folder\n"+textField);
-            sources="folder at them\nSystem new folder here: "+textField.toString();
+
     			} catch (FileNotFoundException e){
     				e.printStackTrace();
     			} catch (IOException e) {
@@ -237,7 +236,6 @@ public class ShowWindow extends JPanel{
 				e.printStackTrace();
 			}
 			try {
-        System.out.println(sources);
 				StringBuilder sb = new StringBuilder();
 				String line = br.readLine();
 
