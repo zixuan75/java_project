@@ -12,7 +12,7 @@ import org.sourcejav.casejava.string.tools.ListText;
 public class TextFile {
 	static String initializationText="";
 	public TextFile() {
-		;
+		CaseToTextFile emptychange=new CaseToTextFile();
 	}
 	public void initialization() {
 		initializationText="made a text being used";

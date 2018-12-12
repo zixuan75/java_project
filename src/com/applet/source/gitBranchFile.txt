@@ -1,1 +1,3 @@
 We push an required file from this branch.
+Pushing required files are not possible from merging branches:
+Merge branch 1.

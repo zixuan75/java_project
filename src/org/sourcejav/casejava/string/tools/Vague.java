@@ -26,8 +26,11 @@ public class Vague {
 		String mainListStr=new String();
 		mainListStr=toolsList;
 		toolsListVec.add(mainListStr);
-		for (int i=0; i < minuteVec.size(); ++i)
+		for (int i=0; i < minuteVec.size(); ++i){
 			mainListStr.concat(toolsList.substring(0, 4) );
+			String listOfString=mainListStr+"String: Property\nList String: Property"+toolsList.substring(0, 4);
+			System.out.println(listOfString);
+		}
 		try {
 			System.in.close();
 		} catch (IOException e) {
@@ -35,5 +38,5 @@ public class Vague {
 			e.printStackTrace();
 		}
 	}
-	
+
 }
